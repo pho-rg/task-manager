@@ -7,9 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-	   <link rel="stylesheet" href="./styles/style.css">
-        <link rel="stylesheet" href="./styles/dark.css">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
     </head>
     <body>
           <script>
@@ -64,7 +64,7 @@
 
         <div class="navbar navbar-default navbar-fixed-top d-md-none p-0">
                <div class="d-flex">
-                    <a href="./" class="navbar-brand">task-manager documentation</a>
+                    <a href="../" class="navbar-brand">task-manager documentation</a>
                     <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
                </div>
         </div>
@@ -79,14 +79,16 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content overview">
+               <div class="content module">
                    <div class="content-data">
 
 
+
 <ol class="breadcrumb">
-    <li class="breadcrumb-item">Overview</li>
+    <li class="breadcrumb-item">Modules</li>
+    <li class="breadcrumb-item" >TasksModule</li>
 </ol>
-  
+
 <div class="text-center module-graph-container">
     <div id="module-graph-svg">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -119,13 +121,13 @@
 <title>cluster_TasksModule_declarations</title>
 <polygon fill="none" stroke="black" points="827,-78 827,-130 1583,-130 1583,-78 827,-78"/>
 </g>
-<g id="clust8" class="cluster">
-<title>cluster_TasksModule_imports</title>
-<polygon fill="none" stroke="black" points="665,-78 665,-130 819,-130 819,-78 665,-78"/>
-</g>
 <g id="clust11" class="cluster">
 <title>cluster_TasksModule_providers</title>
-<polygon fill="none" stroke="black" points="16,-78 16,-130 657,-130 657,-78 16,-78"/>
+<polygon fill="none" stroke="black" points="178,-78 178,-130 819,-130 819,-78 178,-78"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_TasksModule_imports</title>
+<polygon fill="none" stroke="black" points="16,-78 16,-130 170,-130 170,-78 16,-78"/>
 </g>
 <!-- MainTaskComponent -->
 <g id="node1" class="node">
@@ -196,50 +198,50 @@
 <!-- TasksRoutingModule -->
 <g id="node7" class="node">
 <title>TasksRoutingModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="810.82,-122 807.82,-126 786.82,-126 783.82,-122 673.18,-122 673.18,-86 810.82,-86 810.82,-122"/>
-<text text-anchor="middle" x="742" y="-99.8" font-family="Times,serif" font-size="14.00">TasksRoutingModule</text>
+<polygon fill="#8dd3c7" stroke="black" points="161.82,-122 158.82,-126 137.82,-126 134.82,-122 24.18,-122 24.18,-86 161.82,-86 161.82,-122"/>
+<text text-anchor="middle" x="93" y="-99.8" font-family="Times,serif" font-size="14.00">TasksRoutingModule</text>
 </g>
 <!-- TasksRoutingModule&#45;&gt;TasksModule -->
 <g id="edge6" class="edge">
 <title>TasksRoutingModule&#45;&gt;TasksModule</title>
-<path fill="none" stroke="black" d="M742,-122.01C742,-138.05 742,-159 742,-159 742,-159 856.72,-159 856.72,-159"/>
-<polygon fill="black" stroke="black" points="856.72,-162.5 866.72,-159 856.72,-155.5 856.72,-162.5"/>
+<path fill="none" stroke="black" d="M93,-122.01C93,-144.49 93,-180 93,-180 93,-180 856.86,-180 856.86,-180"/>
+<polygon fill="black" stroke="black" points="856.86,-183.5 866.86,-180 856.86,-176.5 856.86,-183.5"/>
 </g>
 <!-- ByStatutTaskListService -->
 <g id="node8" class="node">
 <title>ByStatutTaskListService</title>
-<ellipse fill="#fdb462" stroke="black" cx="541" cy="-104" rx="107.68" ry="18"/>
-<text text-anchor="middle" x="541" y="-99.8" font-family="Times,serif" font-size="14.00">ByStatutTaskListService</text>
+<ellipse fill="#fdb462" stroke="black" cx="703" cy="-104" rx="107.68" ry="18"/>
+<text text-anchor="middle" x="703" y="-99.8" font-family="Times,serif" font-size="14.00">ByStatutTaskListService</text>
 </g>
 <!-- ByStatutTaskListService&#45;&gt;TasksModule -->
 <g id="edge7" class="edge">
 <title>ByStatutTaskListService&#45;&gt;TasksModule</title>
-<path fill="none" stroke="black" d="M541,-122.27C541,-140.56 541,-166 541,-166 541,-166 856.64,-166 856.64,-166"/>
-<polygon fill="black" stroke="black" points="856.64,-169.5 866.64,-166 856.64,-162.5 856.64,-169.5"/>
+<path fill="none" stroke="black" d="M703,-122.01C703,-138.05 703,-159 703,-159 703,-159 856.65,-159 856.65,-159"/>
+<polygon fill="black" stroke="black" points="856.65,-162.5 866.65,-159 856.65,-155.5 856.65,-162.5"/>
 </g>
 <!-- CRUDTaskListService -->
 <g id="node9" class="node">
 <title>CRUDTaskListService</title>
-<ellipse fill="#fdb462" stroke="black" cx="315" cy="-104" rx="100.72" ry="18"/>
-<text text-anchor="middle" x="315" y="-99.8" font-family="Times,serif" font-size="14.00">CRUDTaskListService</text>
+<ellipse fill="#fdb462" stroke="black" cx="477" cy="-104" rx="100.72" ry="18"/>
+<text text-anchor="middle" x="477" y="-99.8" font-family="Times,serif" font-size="14.00">CRUDTaskListService</text>
 </g>
 <!-- CRUDTaskListService&#45;&gt;TasksModule -->
 <g id="edge8" class="edge">
 <title>CRUDTaskListService&#45;&gt;TasksModule</title>
-<path fill="none" stroke="black" d="M315,-122.13C315,-142.57 315,-173 315,-173 315,-173 856.57,-173 856.57,-173"/>
-<polygon fill="black" stroke="black" points="856.57,-176.5 866.57,-173 856.57,-169.5 856.57,-176.5"/>
+<path fill="none" stroke="black" d="M477,-122.27C477,-140.56 477,-166 477,-166 477,-166 856.75,-166 856.75,-166"/>
+<polygon fill="black" stroke="black" points="856.75,-169.5 866.75,-166 856.75,-162.5 856.75,-169.5"/>
 </g>
 <!-- TaskFacadeService -->
 <g id="node10" class="node">
 <title>TaskFacadeService</title>
-<ellipse fill="#fdb462" stroke="black" cx="110" cy="-104" rx="86.21" ry="18"/>
-<text text-anchor="middle" x="110" y="-99.8" font-family="Times,serif" font-size="14.00">TaskFacadeService</text>
+<ellipse fill="#fdb462" stroke="black" cx="272" cy="-104" rx="86.21" ry="18"/>
+<text text-anchor="middle" x="272" y="-99.8" font-family="Times,serif" font-size="14.00">TaskFacadeService</text>
 </g>
 <!-- TaskFacadeService&#45;&gt;TasksModule -->
 <g id="edge9" class="edge">
 <title>TaskFacadeService&#45;&gt;TasksModule</title>
-<path fill="none" stroke="black" d="M110,-122.01C110,-144.49 110,-180 110,-180 110,-180 856.65,-180 856.65,-180"/>
-<polygon fill="black" stroke="black" points="856.65,-183.5 866.65,-180 856.65,-176.5 856.65,-183.5"/>
+<path fill="none" stroke="black" d="M272,-122.13C272,-142.57 272,-173 272,-173 272,-173 856.64,-173 856.64,-173"/>
+<polygon fill="black" stroke="black" points="856.64,-176.5 866.64,-173 856.64,-169.5 856.64,-176.5"/>
 </g>
 </g>
 </svg>
@@ -252,72 +254,122 @@
         <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
     </div>
 </div>
-  
-<div class="tab-content overview">
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-ios-archive"></span></h4>
-                    <p class="card-text">
-                        <a href="./modules.html">2 Modules</a>
-                    </p>
+<script src="../js/libs/svg-pan-zoom.min.js"></script>
+<script src="../js/svg-pan-zoom.controls.js"></script>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+        <a href="#info" 
+            class="nav-link"
+            class="nav-link active"
+            role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+    </li>
+    <li class="nav-item">
+        <a href="#source" 
+            class="nav-link"
+            
+            role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/tasks/tasks.module.ts</code>
+        </p>
+
+
+
+
+
+        <div class="container-fluid module">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Declarations<a href="https://angular.io/api/core/NgModule#declarations" target="_blank" rel="noopener noreferrer"
+                            title="Official documentation about module declarations"><span class="icon ion-ios-information-circle-outline"></span></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../components/MainTaskComponent.html">MainTaskComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/TaskComponent.html">TaskComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/TaskDateFormatPipe.html">TaskDateFormatPipe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/TaskListComponent.html">TaskListComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../directives/TaskStateColorDirective.html">TaskStateColorDirective</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Providers<a href="https://angular.io/api/core/NgModule#providers" target="_blank" rel="noopener noreferrer"
+                            title="Official documentation about module providers"><span class="icon ion-ios-information-circle-outline"></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../injectables/ByStatutTaskListService.html">ByStatutTaskListService</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../injectables/CRUDTaskListService.html">CRUDTaskListService</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../injectables/TaskFacadeService.html">TaskFacadeService</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Imports<a href="https://angular.io/api/core/NgModule#imports" target="_blank" rel="noopener noreferrer"
+                            title="Official documentation about module imports"><span
+                                class="icon ion-ios-information-circle-outline"></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../modules/TasksRoutingModule.html">TasksRoutingModule</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-cog"></span></h4>
-                    <p class="card-text">4 Components</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-code-working"></span></h4>
-                    <p class="card-text">1 Directive</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-arrow-round-down"></span></h4>
-                    <p class="card-text">3 Injectables</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-add"></span></h4>
-                    <p class="card-text">1 Pipe</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-ios-paper"></span></h4>
-                    <p class="card-text">2 Classes</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-information-circle-outline"></span></h4>
-                    <p class="card-text">2 Interfaces</p>
-                </div>
-            </div>
-        </div>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+import { CommonModule } from &#x27;@angular/common&#x27;;
+
+import { TasksRoutingModule } from &#x27;./tasks-routing.module&#x27;;
+import {TaskComponent} from &quot;./task/task.component&quot;;
+import {TaskListComponent} from &quot;./task-list/task-list.component&quot;;
+import {MainTaskComponent} from &quot;./main-task/main-task.component&quot;;
+import {TaskStateColorDirective} from &quot;./task/task-state-color.directive&quot;;
+import {TaskDateFormatPipe} from &quot;./task/task-date-format.pipe&quot;;
+import {CRUDTaskListService} from &quot;./service/crudtask-list-service.service&quot;;
+import {ByStatutTaskListService} from &quot;./service/by-statut-task-list-service.service&quot;;
+import {TaskFacadeService} from &quot;./service/task-facade.service&quot;;
+
+// Module de gestion des listes de tâches
+@NgModule({
+  // Components, directives, pipes
+  declarations: [TaskComponent, TaskListComponent, MainTaskComponent, TaskStateColorDirective, TaskDateFormatPipe],
+  imports: [
+    CommonModule,
+    TasksRoutingModule,
+  ],
+  // Services
+  providers: [CRUDTaskListService, ByStatutTaskListService, TaskFacadeService]
+})
+export class TasksModule {}
+</code></pre>
     </div>
 </div>
-<script src="js/libs/svg-pan-zoom.min.js"></script>
-<script src="js/svg-pan-zoom.controls.js"></script> 
-
 
 
 
@@ -359,9 +411,9 @@
           </label>
 
        <script>
-            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'overview';
-            var COMPODOC_CURRENT_PAGE_URL = 'overview.html';
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
+            var COMPODOC_CURRENT_PAGE_URL = 'TasksModule.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
@@ -378,31 +430,31 @@
                }
           </script>
 
-       <script src="./js/libs/custom-elements.min.js"></script>
-       <script src="./js/libs/lit-html.js"></script>
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
 
-       <script src="./js/menu-wc.js" defer></script>
-       <script nomodule src="./js/menu-wc_es5.js" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
 
-       <script src="./js/libs/bootstrap-native.js"></script>
+       <script src="../js/libs/bootstrap-native.js"></script>
 
-       <script src="./js/libs/es6-shim.min.js"></script>
-       <script src="./js/libs/EventDispatcher.js"></script>
-       <script src="./js/libs/promise.min.js"></script>
-       <script src="./js/libs/zepto.min.js"></script>
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
 
-       <script src="./js/compodoc.js"></script>
+       <script src="../js/compodoc.js"></script>
 
-       <script src="./js/tabs.js"></script>
-       <script src="./js/menu.js"></script>
-       <script src="./js/libs/clipboard.min.js"></script>
-       <script src="./js/libs/prism.js"></script>
-       <script src="./js/sourceCode.js"></script>
-          <script src="./js/search/search.js"></script>
-          <script src="./js/search/lunr.min.js"></script>
-          <script src="./js/search/search-lunr.js"></script>
-          <script src="./js/search/search_index.js"></script>
-       <script src="./js/lazy-load-graphs.js"></script>
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
 
 
     </body>
