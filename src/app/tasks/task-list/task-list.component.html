@@ -1,0 +1,6 @@
+
+<ul>
+  @for (task of currentTaskList.tasks ; track $index) {
+    <app-task [currentTask]="task"></app-task>
+  }
+</ul>

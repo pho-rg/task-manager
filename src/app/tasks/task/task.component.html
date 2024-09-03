@@ -1,0 +1,8 @@
+<div class="task" style="width: 20%;">
+  <div class="task-body">
+    <h3>{{currentTask.titre}}</h3>
+    <p>le {{currentTask.date | taskDateFormat}}</p>
+    <p>Description: {{currentTask.description}}</p>
+    <p [appTaskStateColor]="currentTask" style="text-align: center;">{{currentTask.etat}}</p>
+  </div>
+</div>

@@ -2,6 +2,30 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
+## Notes personnelles
+
+### Prérequis
+
+node déjà installé `node -v` **20.16.0**
+
+npm déjà installé `npm -v` **10.8.1**
+
+installation d'angular client`npm i -g @angular/cli` **18.2.2**
+
+création du projet **task-manager** avec **PhpStorm**
+
+**YARN**
+
+installation de yarn `npm i -g yarn`
+
+### Demarrage
+
+lancer l'app `ng serve`
+
+installation de compodoc (génération de doc) `yarn add --dev @compodoc/compodoc`
+
+ajouter le script et démarrer `npm run compodoc`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
